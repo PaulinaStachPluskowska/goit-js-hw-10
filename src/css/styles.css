@@ -20,8 +20,8 @@ body {
   font-weight: 600;
   color: #3a348a;
   font-style: oblique;
-  /* text-transform: uppercase; */
 }
+
 #search-box {
   font: inherit;
   padding: 15px;
