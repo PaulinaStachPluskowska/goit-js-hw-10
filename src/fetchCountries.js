@@ -1,4 +1,4 @@
-function fetchCountries(name) {
+export function fetchCountries(name) {
     const param = new URLSearchParams({
       fields: 'name,capital,population,flags,languages',
     });
@@ -13,5 +13,5 @@ function fetchCountries(name) {
     );
   }
   
-export { fetchCountries };
+// export { fetchCountries };
 
